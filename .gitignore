@@ -1,0 +1,7 @@
+node_modules/
+dist/
+# Logs
+logs/
+CLAUDE.md
+.calude
+

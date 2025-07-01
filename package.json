@@ -1,0 +1,50 @@
+{
+  "name": "part-render",
+  "version": "1.0.0",
+  "description": "A TypeScript package for executing JSX code snippets in project context with AI model integration",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint src/**/*.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "tsx",
+    "jsx",
+    "typescript",
+    "ai",
+    "ollama",
+    "openai",
+    "code-execution"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/jest": "^29.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@types/ws": "^8.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0",
+    "tsx": "^4.0.0"
+  },
+  "dependencies": {
+    "esbuild": "^0.19.0",
+    "glob": "^10.0.0",
+    "openai": "^4.0.0",
+    "axios": "^1.6.0",
+    "vm2": "^3.9.19",
+    "typescript": "^5.0.0",
+    "vite": "^4.0.0",
+    "ws": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
